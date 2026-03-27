@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(249, 247, 244);
+     font-family: "Poppins", sans-serif;
+}
+nav{
+    background-color:rgb(249, 247, 244);
+}
+
+
+
+.btn{
+    font-size: 12px;
+    padding: 12px;
+    min-width: 8vw;
+    
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+.card img{
+    height: 20vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card {
+    transition: 0.5s ;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
